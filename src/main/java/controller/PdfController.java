@@ -2,6 +2,7 @@ package controller;
 
 import model.ExportPDF;
 import model.Optimisation;
+import view.AccueilView;
 import view.PdfView;
 
 import javax.swing.*;
