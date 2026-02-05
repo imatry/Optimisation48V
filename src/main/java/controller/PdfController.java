@@ -84,8 +84,9 @@ public class PdfController {
                     );
 
                     view.dispose();
-                    // Redirection vers la page d'accueil
-                    new AccueilController(); // <-- Ajout ici
+                   // Redirection vers la page d'accueil
+                    new AccueilController();
+
 
                 } catch (Exception ex) {
                     JOptionPane.showMessageDialog(
